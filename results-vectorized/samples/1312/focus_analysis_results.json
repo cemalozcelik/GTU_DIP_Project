@@ -1,0 +1,280 @@
+{
+  "sample_directory": "samples/1312",
+  "total_images": 27,
+  "best_focused_image": {
+    "file": "Image__2025-12-30__16-19-37.jpg",
+    "hybrid_score": 0.9896704612144762
+  },
+  "images": [
+    {
+      "file": "Image__2025-12-30__16-17-06.jpg",
+      "laplacian": 122.06299010063434,
+      "tenengrad": 446.05538448201884,
+      "brenner": 354308680.0,
+      "laplacian_normalized": 0.02029698654514889,
+      "tenengrad_normalized": 0.0005864089379642127,
+      "brenner_normalized": 0.003301105041559338,
+      "hybrid_score": 0.00901357920155711
+    },
+    {
+      "file": "Image__2025-12-30__16-17-37.jpg",
+      "laplacian": 122.03985064494428,
+      "tenengrad": 446.37145677415765,
+      "brenner": 354460102.0,
+      "laplacian_normalized": 0.01912931431553683,
+      "tenengrad_normalized": 0.0008656995800661868,
+      "brenner_normalized": 0.004099480893829594,
+      "hybrid_score": 0.008817901737007127
+    },
+    {
+      "file": "Image__2025-12-30__16-17-45.jpg",
+      "laplacian": 121.66077001789829,
+      "tenengrad": 445.65397926799545,
+      "brenner": 353682584.0,
+      "laplacian_normalized": 0.0,
+      "tenengrad_normalized": 0.000231715651788924,
+      "brenner_normalized": 0.0,
+      "hybrid_score": 9.26862607155696e-05
+    },
+    {
+      "file": "Image__2025-12-30__16-17-51.jpg",
+      "laplacian": 122.10374967655457,
+      "tenengrad": 446.6450139000278,
+      "brenner": 354568190.0,
+      "laplacian_normalized": 0.02235381214771796,
+      "tenengrad_normalized": 0.0011074225884920063,
+      "brenner_normalized": 0.004669377270315094,
+      "hybrid_score": 0.010318369348547006
+    },
+    {
+      "file": "Image__2025-12-30__16-17-54.jpg",
+      "laplacian": 121.97205311657032,
+      "tenengrad": 445.39174743439673,
+      "brenner": 353964242.0,
+      "laplacian_normalized": 0.01570808902056911,
+      "tenengrad_normalized": 0.0,
+      "brenner_normalized": 0.0014850480498126806,
+      "hybrid_score": 0.0065802452181901805
+    },
+    {
+      "file": "Image__2025-12-30__16-17-57.jpg",
+      "laplacian": 121.82285343732941,
+      "tenengrad": 445.7361225982993,
+      "brenner": 354136512.0,
+      "laplacian_normalized": 0.008179116669179804,
+      "tenengrad_normalized": 0.0003042998802567497,
+      "brenner_normalized": 0.0023933454443167616,
+      "hybrid_score": 0.003872035708637974
+    },
+    {
+      "file": "Image__2025-12-30__16-18-03.jpg",
+      "laplacian": 121.8767222246665,
+      "tenengrad": 445.64970730614243,
+      "brenner": 354195208.0,
+      "laplacian_normalized": 0.010897464406435168,
+      "tenengrad_normalized": 0.0002279408224266543,
+      "brenner_normalized": 0.002702821405701864,
+      "hybrid_score": 0.0049907263726851015
+    },
+    {
+      "file": "Image__2025-12-30__16-18-06.jpg",
+      "laplacian": 122.07017258073145,
+      "tenengrad": 449.4683607399318,
+      "brenner": 355240200.0,
+      "laplacian_normalized": 0.020659431654553327,
+      "tenengrad_normalized": 0.003602213721423937,
+      "brenner_normalized": 0.008212564894861954,
+      "hybrid_score": 0.011347171129363297
+    },
+    {
+      "file": "Image__2025-12-30__16-18-09.jpg",
+      "laplacian": 122.24464686219187,
+      "tenengrad": 457.0331347602102,
+      "brenner": 357288828.0,
+      "laplacian_normalized": 0.029463820831710764,
+      "tenengrad_normalized": 0.010286667392396124,
+      "brenner_normalized": 0.019014001446252832,
+      "hybrid_score": 0.019702995578893323
+    },
+    {
+      "file": "Image__2025-12-30__16-18-12.jpg",
+      "laplacian": 122.16519994954452,
+      "tenengrad": 462.60840658630696,
+      "brenner": 358571398.0,
+      "laplacian_normalized": 0.02545473976820953,
+      "tenengrad_normalized": 0.015213139237387048,
+      "brenner_normalized": 0.025776380207900823,
+      "hybrid_score": 0.021422427643818798
+    },
+    {
+      "file": "Image__2025-12-30__16-18-15.jpg",
+      "laplacian": 122.04848560271849,
+      "tenengrad": 477.87008285496046,
+      "brenner": 364087214.0,
+      "laplacian_normalized": 0.01956505491945887,
+      "tenengrad_normalized": 0.028698798912841026,
+      "brenner_normalized": 0.054858642362448466,
+      "hybrid_score": 0.030277270005409654
+    },
+    {
+      "file": "Image__2025-12-30__16-18-31.jpg",
+      "laplacian": 122.37277752445051,
+      "tenengrad": 469.29037005314126,
+      "brenner": 361433298.0,
+      "laplacian_normalized": 0.035929600238333026,
+      "tenengrad_normalized": 0.021117515905540177,
+      "brenner_normalized": 0.04086581141084521,
+      "hybrid_score": 0.030992008739718323
+    },
+    {
+      "file": "Image__2025-12-30__16-18-37.jpg",
+      "laplacian": 125.27939642640652,
+      "tenengrad": 588.4377433322666,
+      "brenner": 398793280.0,
+      "laplacian_normalized": 0.1826045358695091,
+      "tenengrad_normalized": 0.12639958970806128,
+      "brenner_normalized": 0.23784714483697494,
+      "hybrid_score": 0.17117107919842317
+    },
+    {
+      "file": "Image__2025-12-30__16-18-40.jpg",
+      "laplacian": 133.23023884046628,
+      "tenengrad": 893.4981355316768,
+      "brenner": 470436504.0,
+      "laplacian_normalized": 0.5838230439137022,
+      "tenengrad_normalized": 0.3959597977247606,
+      "brenner_normalized": 0.6155876318229403,
+      "hybrid_score": 0.5150306630199732
+    },
+    {
+      "file": "Image__2025-12-30__16-18-50.jpg",
+      "laplacian": 136.77291989832392,
+      "tenengrad": 1284.5919379566442,
+      "brenner": 485731390.0,
+      "laplacian_normalized": 0.7625951959056181,
+      "tenengrad_normalized": 0.7415416216240873,
+      "brenner_normalized": 0.696230257370261,
+      "hybrid_score": 0.7409007784859344
+    },
+    {
+      "file": "Image__2025-12-30__16-18-52.jpg",
+      "laplacian": 140.89945784529655,
+      "tenengrad": 1498.4399871276855,
+      "brenner": 534569654.0,
+      "laplacian_normalized": 0.9708301617432472,
+      "tenengrad_normalized": 0.9305039585663091,
+      "brenner_normalized": 0.9537310871334378,
+      "hybrid_score": 0.9512798655505101
+    },
+    {
+      "file": "Image__2025-12-30__16-18-56.jpg",
+      "laplacian": 138.6590608091826,
+      "tenengrad": 1220.5485625915605,
+      "brenner": 521383706.0,
+      "laplacian_normalized": 0.8577743735079354,
+      "tenengrad_normalized": 0.684951038162768,
+      "brenner_normalized": 0.884207883949678,
+      "hybrid_score": 0.793931741458217
+    },
+    {
+      "file": "Image__2025-12-30__16-18-59.jpg",
+      "laplacian": 137.93751555646327,
+      "tenengrad": 1141.0100752711446,
+      "brenner": 512134196.0,
+      "laplacian_normalized": 0.8213634758060153,
+      "tenengrad_normalized": 0.6146685244845916,
+      "brenner_normalized": 0.8354396373981052,
+      "hybrid_score": 0.7415007275958639
+    },
+    {
+      "file": "Image__2025-12-30__16-19-02.jpg",
+      "laplacian": 137.36962880153004,
+      "tenengrad": 1103.5171269659447,
+      "brenner": 506645736.0,
+      "laplacian_normalized": 0.7927065530943467,
+      "tenengrad_normalized": 0.5815386682241873,
+      "brenner_normalized": 0.8065016103600843,
+      "hybrid_score": 0.7109984105994305
+    },
+    {
+      "file": "Image__2025-12-30__16-19-06.jpg",
+      "laplacian": 138.0004182912816,
+      "tenengrad": 1102.7727117839195,
+      "brenner": 507648880.0,
+      "laplacian_normalized": 0.8245376981212607,
+      "tenengrad_normalized": 0.580880881384438,
+      "brenner_normalized": 0.8117907093414066,
+      "hybrid_score": 0.7245255736705609
+    },
+    {
+      "file": "Image__2025-12-30__16-19-09.jpg",
+      "laplacian": 136.22166102128506,
+      "tenengrad": 1018.3547884627861,
+      "brenner": 492899610.0,
+      "laplacian_normalized": 0.734777355647517,
+      "tenengrad_normalized": 0.5062867565728904,
+      "brenner_normalized": 0.7340248562512737,
+      "hybrid_score": 0.6432306161384177
+    },
+    {
+      "file": "Image__2025-12-30__16-19-12.jpg",
+      "laplacian": 132.37803839974012,
+      "tenengrad": 845.5013635602826,
+      "brenner": 458881894.0,
+      "laplacian_normalized": 0.5408189732031409,
+      "tenengrad_normalized": 0.35354845830616494,
+      "brenner_normalized": 0.5546656944135783,
+      "hybrid_score": 0.468680111486438
+    },
+    {
+      "file": "Image__2025-12-30__16-19-25.jpg",
+      "laplacian": 138.8367046660344,
+      "tenengrad": 1193.0646802448412,
+      "brenner": 519461808.0,
+      "laplacian_normalized": 0.8667387070335578,
+      "tenengrad_normalized": 0.660665482804125,
+      "brenner_normalized": 0.8740746341330958,
+      "hybrid_score": 0.7857766027616923
+    },
+    {
+      "file": "Image__2025-12-30__16-19-28.jpg",
+      "laplacian": 140.88838820946944,
+      "tenengrad": 1356.3434015622333,
+      "brenner": 538282722.0,
+      "laplacian_normalized": 0.9702715614667163,
+      "tenengrad_normalized": 0.8049432953568815,
+      "brenner_normalized": 0.9733083204881512,
+      "hybrid_score": 0.9047476068270695
+    },
+    {
+      "file": "Image__2025-12-30__16-19-33.jpg",
+      "laplacian": 141.4775089136623,
+      "tenengrad": 1471.8105624399932,
+      "brenner": 543345134.0,
+      "laplacian_normalized": 1.0,
+      "tenengrad_normalized": 0.9069734267708633,
+      "brenner_normalized": 1.0,
+      "hybrid_score": 0.9627893707083455
+    },
+    {
+      "file": "Image__2025-12-30__16-19-37.jpg",
+      "laplacian": 141.3506104903603,
+      "tenengrad": 1577.0884264209024,
+      "brenner": 535978546.0,
+      "laplacian_normalized": 0.9935964023157662,
+      "tenengrad_normalized": 1.0,
+      "brenner_normalized": 0.9611595014408485,
+      "hybrid_score": 0.9896704612144762
+    },
+    {
+      "file": "Image__2025-12-30__16-19-41.jpg",
+      "laplacian": 138.4106404836755,
+      "tenengrad": 1443.857101499371,
+      "brenner": 502336300.0,
+      "laplacian_normalized": 0.8452384902420876,
+      "tenengrad_normalized": 0.8822729381508418,
+      "brenner_normalized": 0.7837800135029293,
+      "hybrid_score": 0.8477605740577577
+    }
+  ]
+}

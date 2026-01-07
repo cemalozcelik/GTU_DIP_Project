@@ -1,0 +1,13 @@
+Analyzing image: Image__2025-12-30__16-15-19.jpg
+[wr_1.0_wg_0.0_scale_blur_blue] Number of large white blood cells detected: 9
+[wr_1.0_wg_0.0_scale_blur_blue] Number of small white blood cells detected: 168
+[wr_1.0_wg_0.0_blur_blue_scale] Number of large white blood cells detected: 9
+[wr_1.0_wg_0.0_blur_blue_scale] Number of small white blood cells detected: 192
+[wr_0.9_wg_0.1_scale_blur_blue] Number of large white blood cells detected: 9
+[wr_0.9_wg_0.1_scale_blur_blue] Number of small white blood cells detected: 160
+[wr_0.9_wg_0.1_blur_blue_scale] Number of large white blood cells detected: 9
+[wr_0.9_wg_0.1_blur_blue_scale] Number of small white blood cells detected: 183
+[wr_0.8_wg_0.2_scale_blur_blue] Number of large white blood cells detected: 9
+[wr_0.8_wg_0.2_scale_blur_blue] Number of small white blood cells detected: 156
+[wr_0.8_wg_0.2_blur_blue_scale] Number of large white blood cells detected: 9
+[wr_0.8_wg_0.2_blur_blue_scale] Number of small white blood cells detected: 175
