@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class Config:
-    SAMPLE_DIR = "samples/1312"
+    SAMPLE_DIR = "samples/1212"
     RESULTS_DIR = "results-vectorized"
     
     MIN_SIZE_LARGE_WBC = 200
@@ -739,29 +739,41 @@ class WBCellAnalysis:
     ):
         """Main analysis pipeline with organized folder structure."""
         self.image = self.original_image.copy()
+        
+        weights_folder = f"wr_{w_r}_wg_{w_g}"
+        result_base_path = f"{Config.RESULTS_DIR}/{Config.SAMPLE_DIR}/{pipeline_mode}/{weights_folder}"
+        os.makedirs(result_base_path, exist_ok=True)
+        
+        tag = f"wr_{w_r}_wg_{w_g}_{pipeline_mode}"
 
         if pipeline_mode == PipelineMode.SCALE_BLUR_BLUE:
             # Pipeline 1: SCALE → BLUR → BLUE
             if scale != 1.0:
                 self.image = self.scale_image(self.image, scale)
+            
+            self.save_image(f"{result_base_path}/scaled_image.png", self.image)
+            
             self.blurred = self.blur_image(self.image)
+            
+            self.save_image(f"{result_base_path}/blurred_image.png", self.blurred)
+            
             blue_dom = self.extract_blue_dominance(
                 self.blurred, w_r=w_r, w_g=w_g
             )
+            
         else:
             # Pipeline 2: BLUR → BLUE → SCALE
             self.blurred = self.blur_image(self.image)
+            
+            self.save_image(f"{result_base_path}/blurred_image.png", self.blurred)
+            
             blue_dom = self.extract_blue_dominance(
                 self.blurred, w_r=w_r, w_g=w_g
             )
             if scale != 1.0:
                 blue_dom = self.scale_image(blue_dom, scale)
 
-        weights_folder = f"wr_{w_r}_wg_{w_g}"
-        result_base_path = f"{Config.RESULTS_DIR}/{Config.SAMPLE_DIR}/{pipeline_mode}/{weights_folder}"
-        os.makedirs(result_base_path, exist_ok=True)
-        
-        tag = f"wr_{w_r}_wg_{w_g}_{pipeline_mode}"
+
         
         self.save_image(
             f"{result_base_path}/blue_dom.png",
