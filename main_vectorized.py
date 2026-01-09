@@ -7,8 +7,8 @@ class Config:
     SAMPLE_DIR = "samples/1212"
     RESULTS_DIR = "results-vectorized"
     
-    MIN_SIZE_LARGE_WBC = 200
-    MAX_SIZE_LARGE_WBC = 2000
+    MIN_SIZE_LARGE_WBC = 400
+    MAX_SIZE_LARGE_WBC = 2500
     
     THRESHOLD_BLUE_CHANNEL = 80
     
