@@ -84,8 +84,8 @@ Parameters can be adjusted via the `Config` class:
 class Config:
     SAMPLE_DIR = "samples/1212"
     RESULTS_DIR = "results-main"
-    MIN_SIZE_LARGE_WBC = 200
-    MAX_SIZE_LARGE_WBC = 2000
+    MIN_SIZE_LARGE_WBC = 400
+    MAX_SIZE_LARGE_WBC = 2500
     CROP_AREA_OUT_WIDTH = 80
     CROP_AREA_OUT_HEIGHT = 80
 ```
